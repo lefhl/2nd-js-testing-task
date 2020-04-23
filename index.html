@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test</title>
+  <link rel="stylesheet" href="/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <script src="/scripts/jquery-3.4.1.min.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Время сеанса</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <select name="" class="custom-select" id="session-time">
+            <option value="9:00">9:00</option>
+            <option value="11:00">11:00</option>
+            <option value="13:00">13:00</option>
+            <option value="15:00">15:00</option>
+            <option value="17:00">17:00</option>
+            <option value="19:00">19:00</option>
+            <option value="21:00">21:00</option>
+            <option value="23:00">23:00</option>
+          </select>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" id="session-cancel">Отмена</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="session-confirm">ОК</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">Кино-тест
+  </header>
+  <main class="main">
+    <h1 class="session-title">Зрительный зал</h1>
+  </main>
+
+  <script src="/scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+
+.header {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  background-color: #343A40;
+  color: #fff;
+}
+.main {
+  width: 1300px;
+  margin: 40px auto 0;
+}
+.session-title {
+  font-size: 22px;
+}
+.spot {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #C2C1C1;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.spot:hover {
+  background-color: #C2C1C1;
+}
+
+.row-seats {
+  display: flex;
+  margin-top: 5px;
+  /* background-color: green; */
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+}
+.reservation {
+  background-color: lightgreen;
+}
+.custom-select {
+  margin-bottom: 50px;
+}
